@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import { addEmployee } from '../store/employeeSlice';
 import CustomDatePicker from '../components/DatePicker';
 import Dropdown from '../components/Dropdown';
-import Modal from '../components/Modal';
+import Modal from 'modal-hrnet-plugin';
 import states from '../data/states';
 import departments from '../data/departments';
 
